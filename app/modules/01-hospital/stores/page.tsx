@@ -1,8 +1,0 @@
-import StoresListPage from "@/app/pages/01-hospital/stores/list/page"
-
-export default function StoresPage() {
-  return <StoresListPage />
-}
-
-
-
