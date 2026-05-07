@@ -1,0 +1,37 @@
+{
+  "name": "@mostashfy/modules",
+  "version": "1.0.0",
+  "description": "موديولات نظام إدارة المستشفى",
+  "main": "index.ts",
+  "types": "index.ts",
+  "author": "مستشفى الواحة التخصصي",
+  "license": "MIT",
+  "keywords": [
+    "hospital-management",
+    "modules",
+    "react",
+    "nextjs",
+    "typescript"
+  ],
+  "dependencies": {
+    "react": "^18.0.0",
+    "next": "^14.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "next dev",
+    "lint": "eslint . --ext .ts,.tsx",
+    "type-check": "tsc --noEmit"
+  },
+  "files": [
+    "index.ts",
+    "01-hospital/",
+    "02-GeneralDefinition/",
+    "README.md"
+  ]
+}
